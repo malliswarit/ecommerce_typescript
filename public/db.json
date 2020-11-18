@@ -1,0 +1,131 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "sku": 100,
+        "title": "You Can Win",
+        "description": "You Can Win --- Shiv Kera",        
+        "price": 10,
+        "pages":100,
+        "isFreeShipping": true,
+        "author":"Shiv Kera",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 2,
+        "sku": 101,
+        "title": "You Can Achieve More",
+        "description": "You Can Achieve More --- Shiv Kera",   
+        "price": 14.9,
+        "pages":100,
+        "isFreeShipping": true,
+        "author":"Shiv Kera",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 3,
+        "sku": 102,
+        "title": "Freedom is not free",
+        "description": "Freedom is not free --- Shiv Kera",       
+        "price": 14.9,
+        "pages":100,
+        "isFreeShipping": true,
+        "author":"Shiv Kera",
+        "tax":10,
+        "shipping":40,
+        "count":1
+
+      },
+  
+      {
+        "id": 4,
+        "sku": 103,
+        "title": "Everything You Need to Ace English",
+        "description": "Everything You Need to Ace English--- Jen",       
+        "price": 25.9,
+        "pages":100,
+        "isFreeShipping": false,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 5,
+        "sku": 104,
+        "title": "Everything You Need to Ace Math",
+        "description": "Everything You Need to Ace Math --- Jen",       
+        "price": 10.9,
+        "pages":100,
+        "isFreeShipping": false,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 6,
+        "sku": 105,
+        "title": "Everything You Need to Ace Science",
+        "description": "Everything You Need to Ace Science --- Jen",      
+        "price": 49.9,
+        "pages":100,
+        "isFreeShipping": false,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 7,
+        "sku": 106,
+        "title": "Everything You Need to Ace History",
+        "description": "Everything You Need to Ace History --- Jen",
+        "pages":100,     
+        "price": 22.5,
+        "isFreeShipping": true,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+  
+      {
+        "id": 8,
+        "sku": 107,
+        "title": "Everything You Need to Ace ComputerScience",
+        "description": "Everything You Need to Ace ComputerScience ---Jen",
+         "pages":100,
+         
+        "price": 18.7,
+        "isFreeShipping": false,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      },
+      {
+        "id": 9,
+        "sku": 108,
+        "title": "Everything You Need to Ace Chemistry",
+        "description": "Everything You Need to Ace Chemistry ---Jen",
+        "price": 134.9,
+        "pages":100,
+        "isFreeShipping": true,
+        "author":"Shiv Jen",
+        "tax":10,
+        "shipping":40,
+        "count":1
+      }
+    ]
+  }
+  
