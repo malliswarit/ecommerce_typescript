@@ -30,6 +30,7 @@
 }
 
 /* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -39,6 +40,10 @@
   font-size: 17px;
   
 }
+
+
+
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -66,6 +71,121 @@ button:hover{
   
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 17px;
+  width:100%
+  
+}
+  .dashlet-container{
+    border:1px solid black;
+    height:100%;
+    width:300px;
+    margin-left:10px;
+    margin-top:50px
+    
+  }
+
+  .imageClassfull{
+    padding:10px;
+    width:50px !important;
+    height:50px !important;
+    padding-left: 1px;
+    padding-top:30px;  
+  }
+
+
+
+  .bookimage{
+    width:400px !important;
+    float:left
+  }
+  .bookinfo{
+    width:200px;
+     margin-top:50px;
+     margin-left:10px
+  }
+  
+
+  .selectedimage{
+    width:100px;
+  }
+
+  .selectedbook{
+    width:200px;
+    padding:0px !important 
+  }
+
+.imageClass{
+  /* padding:5px; */
+   width:50;
+   height:50;
+  padding-top:10px !important;
+  padding-left:5px !important
+ }
+
+ .shippingaddress{
+  width:500px !important;
+  float:left;
+  
+}
+
+.textField{
+  width:50px;
+  margin:7px !important;
+}
+
+.paymentinfo{
+  width:200px !important;
+  margin:10px !important
+  /* margin-top:350px;
+  margin-left:700px */
+}
+
+
+
+
+}
+
+.bookimage{
+  width:30%;
+  float:left
+}
+.bookinfo{
+  width:60%;
+   margin-top:50px
+}
+
+.selectedimage{
+  width:20%;
+  float:left;
+ 
+}
+.selectedbook{
+  width:60%;
+  float:right;
+}
+
+.shippingaddress{
+  width:50%;
+  float:left;
+   margin:20px
+}
+
+.paymentinfo{
+  width:40%;
+  margin-top:350px;
+  margin-left:700px
+}
+
 .buyButton{
   padding:10px;
   color:blue
@@ -85,6 +205,8 @@ button:hover{
   padding-left: 30px
 }
 
+
+
 .imageClassfull{
   padding:10px;
   width:300px;
@@ -101,7 +223,7 @@ button:hover{
 }
 
 .buttonContainer{
-  margin:10px;
+  margin:5px;
 
 }
 .ordersummary{

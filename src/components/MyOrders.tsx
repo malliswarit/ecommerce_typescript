@@ -49,12 +49,12 @@ class MyOrders extends Component<MyOrdersProps,MyOrdersState> {
          </span>
          
          </div>
-         <div style={{width:"20%", float:"left"}}>
+         <div className="selectedimage">
         <img src={`images/${cartItem.sku}.jpg`} 
 className= "imageClass"  alt="book" /> 
         </div>
 
-         <div style={{width:"60%", float:"left"}}>
+         <div className="selectedbook">
          <p> Book Price : {cartItem.price}</p>
    <p> Author Name : {cartItem.author}</p>
    <p> Page Count:{cartItem.pages} </p>
@@ -73,12 +73,12 @@ className= "imageClass"  alt="book" />
          </span>
          
          </div>
-         <div style={{width:"20%", float:"left"}}>
+         <div className="selectedimage">
         <img src={`images/static.jpg`}
-className= "imageClass"  alt="book" /> 
+className="imageClass"  alt="book" /> 
         </div>
 
-         <div style={{width:"60%", float:"left"}}>
+         <div className="selectedbook">
          <p> Book Price : 200</p>
    <p> Author Name : "Stephen"</p>
    <p> Page Count: 100 </p>

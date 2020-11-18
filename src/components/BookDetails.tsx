@@ -60,13 +60,13 @@ class BookDetails extends Component<BookDetailsProps, BookDetailsState> {
         <React.Fragment>         
  
       
-        <div style={{width:"30%", float:"left"}}>
+        <div className="bookimage">
      
         <img src={`images/${this.props.bookInfo.sku}.jpg`} 
 className= "imageClassfull"  alt="book" /> 
         </div>
 
-          <div style={{width:"60%", marginTop:"50px"}}>
+          <div className="bookinfo">
    <p> Book Price : {this.props.bookInfo.price}</p>
    <p> Author Name : {this.props.bookInfo.author}</p>
    <p> Page Count : {this.props.bookInfo.pages}</p>

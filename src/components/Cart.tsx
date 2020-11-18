@@ -72,7 +72,7 @@ class Cart extends Component<CartProps,CartState> {
      
    <React.Fragment>
       <div>
-          <div style={{width:"50%", float:"left", margin:"20px"}}>
+          <div className="shippingaddress">
           <h1> Shipping Address</h1>
           <label> Name</label>
           <input type="text" name="name" onChange={this.handleChange} className="textField" />
@@ -80,14 +80,17 @@ class Cart extends Component<CartProps,CartState> {
           <label> Address</label>
           <input type="text" name="name" onChange={this.handleChange} className="textField" />
           <br/>
-          <label> Phone Number</label>
+          <label> Phone</label>
           <input type="text" name="name" onChange={this.handleChange} className="textField" />
           <br/>
           <label> Pincode</label>
           <input type="text" name="name" onChange={this.handleChange} className="textField" />
           <br/>
+          <br/>
+          
           <div className="buttonContainer">
           <button style={{padding:"10px", marginRight:"20px"}}>Save Address </button>
+
           <button style={{padding:"10px", marginRight:"20px"}}>Edit Address </button>
           </div>
           
@@ -95,7 +98,7 @@ class Cart extends Component<CartProps,CartState> {
 
       {this.props.cartItemList && this.props.cartItemList.length > 0 ?
         
-           <div style={{width:"40%", float:"left"}}>
+           <div style={{width:"40%", float:"left",marginLeft:"10px"}}>
            <h1> Shopping Bag</h1>
           {/* <p> {cartItem.title}</p> */}
           {this.props.cartItemList.map((cartItem:any) => 
@@ -104,7 +107,7 @@ class Cart extends Component<CartProps,CartState> {
           <br/>
 
           </div>
-          : <div style={{width:"40%", float:"left"}}>
+          : <div style={{width:"40%", float:"left", marginLeft:"10px"}}>
           <h1> Shopping Bag</h1> 
           <p> No Items Added to Cart </p>
           </div>
@@ -114,8 +117,8 @@ class Cart extends Component<CartProps,CartState> {
         <br/>
         
         
-      <div style={{width:"40%",marginTop:"350px", marginLeft:"700px"}}>
-      <h1> Payment Info: CREDIT CARD </h1>
+      <div className="paymentinfo">
+      <h5> Payment Info: CREDIT CARD </h5>
      
       <p> Item Price: {this.state.itemcost} </p>
       <p> Tax Saving: {this.state.itemtax} </p>
