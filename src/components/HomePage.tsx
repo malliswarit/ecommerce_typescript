@@ -82,7 +82,7 @@ class HomePage extends React.Component<HomePageProps, HomePageState> {
     return  data.length ? (
         <React.Fragment>
        
-            (<div className="dashlet-container">
+            <div className="dashlet-container">
             {this.state.data.map((book:any) => 
 <div className="dashlet-value" key={book.id}  >
 
